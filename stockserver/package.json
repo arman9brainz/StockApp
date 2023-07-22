@@ -1,0 +1,28 @@
+{
+  "name": "stockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "ws": "^8.13.0"
+  }
+}
